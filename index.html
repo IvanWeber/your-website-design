@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link href="css/style.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Вёрстка сайтов на заказ</title>
 </head>
 <body>
     <div class="wrapper">
@@ -58,7 +58,11 @@
 
             <section class="feedback">
                 <h2 class="feedback-head"><a name="feedback"></a>Форма для обратной связи</h2>
-                <form action="">
+                <form class="feedback__form" method="post" id="ajax_form" action="" >
+                    <input class="feedback__email-input" type="text" name="email" placeholder="Email" /><br>
+                    <input class="feedback__name-input" type="text" name="name" placeholder="Ваше имя" /><br>
+                    <textarea class="feedback__message-input" type="text" name="message" placeholder="Текст сообщения"></textarea><br>
+                    <input class="feedback__submit-button" type="button" id="btn" value="Отправить" />
                 </form>
             </section>
 
