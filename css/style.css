@@ -95,6 +95,30 @@ body, html {
     font-size: 15px;    
 }
 
+/*about-section*/
+
+.about {
+    padding: 170px 230px 170px 230px;
+    color: #464646;
+}
+
+.about-head {
+    display: none;
+}
+
+.about-big {
+    text-transform: uppercase;
+    font-size: 27px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.about-par {
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+}
+
 @media only screen and (max-width: 1400px) {
 
     .header {
