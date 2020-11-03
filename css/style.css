@@ -51,7 +51,6 @@ html {
     margin-right: auto;
     width: 1380px;
     background-color: #EAEDEF;
-    /* padding: 20px 50px 20px 50px; */
     word-wrap: break-word;
 }
 
@@ -69,11 +68,18 @@ html {
   padding-top: 50px;
   }
 
+/* header */
+
 .header__site-name {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 21px;
     flex-grow: 35;
+}
+
+.header__site-name-link {
+    color: #000000;
+    text-decoration: none;
 }
 
 .header__nav-bar {
@@ -97,7 +103,7 @@ html {
     font-size: 15px;    
 }
 
-/*about section*/
+/* about section */
 
 .about {
     padding: 170px 230px 170px 230px;
@@ -121,7 +127,7 @@ html {
     line-height: 36px;
 }
 
-/*my-projects section*/
+/* my-projects section */
 
 .my-projects {
     padding: 62px 125px 248px 125px;
@@ -242,7 +248,7 @@ html {
 
 }
 
-/*footer*/
+/* footer */
 
 .thanks-par {
     color: black;
@@ -267,7 +273,7 @@ html {
         width: 100%;
     }
 
-    /*my-projects section*/
+    /* my-projects section */
 
     .my-projects__projects {
         display: flex;
@@ -279,11 +285,9 @@ html {
     .my-projects__project {
         margin-right: 0;
         margin-bottom: 50px;
-        /* width: 400px;
-        height: auto; */
     }
 
-    /*footer*/
+    /* footer */
     
     .thanks-par {
         color: black;
@@ -301,7 +305,6 @@ html {
     display: flex;
     flex-direction: column;
     font-size: 35px;
-    /* word-wrap: break-word; */
     }
 
     .header {
@@ -334,7 +337,7 @@ html {
         color: #464646;
     }
 
-    /*my-projects section*/
+    /* my-projects section */
     .my-projects {
         padding: 62px 50px 170px 50px;
         color: #464646;
@@ -343,11 +346,9 @@ html {
     .my-projects__project {
         margin-right: 0;
         margin-bottom: 50px;
-        /* width: 400px;
-        height: auto; */
     }
 
-    /*feedback section*/
+    /* feedback section */
 
     .feedback {
         min-height: 700px;
@@ -378,7 +379,7 @@ html {
         font-size: 25px;
     }
 
-    /*footer*/
+    /* footer */
     
     .thanks-par {
         color: black;
