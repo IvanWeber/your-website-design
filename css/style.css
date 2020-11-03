@@ -56,16 +56,17 @@ html {
 }
 
 .footer-container {
-    background-color: #776368;
+    background-color: #A977A5;
 }
 
 .footer {
-  background-color: #776368;
-  min-height: 50px;
+  background-color: #A977A5;
+  min-height: 125px;
   width: 1380px;
   margin-left: auto;
   margin-right: auto;
   color: white;
+  padding-top: 50px;
   }
 
 .header__site-name {
@@ -123,7 +124,7 @@ html {
 /*my-projects section*/
 
 .my-projects {
-    padding: 62px 125px 170px 125px;
+    padding: 62px 125px 248px 125px;
     color: #464646;
 }
 
@@ -134,6 +135,11 @@ html {
     overflow: hidden;
     text-align: center;
     font-weight: normal;
+}
+
+.my-projects__project-link {
+    color: #464646;
+    text-decoration: none;
 }
 
 .my-projects__head:before,
@@ -173,6 +179,28 @@ html {
     text-align: center;
 }
 
+/* feedback section */
+
+.feedback {
+    min-height: 700px;
+    background-image: url(../img/feedback-bg.png);
+    padding: 75px 360px 50px 360px;
+}
+
+.feedback-head {
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    text-align: center;
+}
+
+/*footer*/
+
+.thanks-par {
+    color: black;
+    font-size: 13px;
+}
+
 @media only screen and (max-width: 1400px) {
 
     .header {
@@ -205,6 +233,13 @@ html {
         margin-bottom: 50px;
         /* width: 400px;
         height: auto; */
+    }
+
+    /*footer*/
+    
+    .thanks-par {
+        color: black;
+        font-size: 25px;
     }
 
 }
@@ -261,6 +296,13 @@ html {
         margin-bottom: 50px;
         /* width: 400px;
         height: auto; */
+    }
+
+    /*footer*/
+    
+    .thanks-par {
+        color: black;
+        font-size: 25px;
     }
 
 }
