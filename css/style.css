@@ -49,8 +49,8 @@ body, html {
     margin-left: auto;
     margin-right: auto;
     width: 1380px;
-    background-color: antiquewhite;
-    padding: 20px 50px 20px 50px;
+    background-color: #EAEDEF;
+    /* padding: 20px 50px 20px 50px; */
     word-wrap: break-word;
 }
 
@@ -107,6 +107,10 @@ body, html {
 
     .footer {
         width: 1100px;
+    }
+
+    .sunset-img {
+        width: 100%;
     }
 
 }
